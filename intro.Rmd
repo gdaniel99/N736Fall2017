@@ -4,11 +4,33 @@ title: "Introductory Materials"
 
 ## Introduction to the Course
 
-This course will describe the concepts underlying the field of study identified as big data analytics along with its application in healthcare. The theoretical underpinnings of these concepts will be presented along with applications in healthcare, including knowledge discovery, precision medicine/nursing, and the development of targeted interventions to improve health outcomes. Commonly used methods in big data analytics will be reviewed, and the challenges related to gathering, analyzing, visualizing, and interpreting big data will be discussed. Hands-on computer laboratory experience with these techniques relevant to an identified area will be included.
+This course builds on the required statistical sequence and focuses on practical application of statistics including understanding clinical research questions. Analyzing data is the major emphasis of the course including examining if assumptions of the statistical analysis are being met and interpreting the findings.  Course assignments focus on using statistical software and computing resources to analyze data sets from actual clinical research studies and interpretation of output and literature. 
 
-## What is data science
+## What are your interests? Project/Study Ideas?
 
 _**Open discussion**_
+
+## Setting up software for the course
+
+Your options for software for this course include:
+
+* SAS (using SAS University - FREE)
+    - [https://www.sas.com/en_us/software/university-edition/download-software.html](https://www.sas.com/en_us/software/university-edition/download-software.html)
+    
+* SPSS (Student Versio - Premium Grad Pack edition preferred - Stadard edition will work)
+    - [http://www-03.ibm.com/software/products/en/spss-stats-gradpack](http://www-03.ibm.com/software/products/en/spss-stats-gradpack)
+
+* R/RStudio - FREE
+    - [https://cran.r-project.org/](https://cran.r-project.org/)
+    - [https://www.rstudio.com/products/rstudio/download/](https://www.rstudio.com/products/rstudio/download/)
+    - Git
+        - It is suggested if you plan on using R/RStudio - also install Git on your computer to enable the version tracking software and "link" back to your Github repositories
+        - [https://git-scm.com/downloads](https://git-scm.com/downloads) - this includes links for both Windows and Mac
+        - and for Windows [https://git-for-windows.github.io/](https://git-for-windows.github.io/)
+    - Also see "Happy Git and GitHub for the useR" by Jenny Bryan at [http://happygitwithr.com/](http://happygitwithr.com/)
+* Github
+    - It is also suggested, even if you do not want to use R/RStudio, go ahead and setup an account on Github, since many of the lessons and code examples will be saved and hosted on Github.
+    - [https://github.com/](https://github.com/)
 
 ## Setting up R and RStudio
 

@@ -1,25 +1,23 @@
 ---
-title: "N741 Big Data Analytics"
+title: "N736 Quantitative Analysis of Clinical Research Data"
 ---
 
 ## COURSE NUMBER, TITLE:		
-NRSG 741, Big Data Analytics for Healthcare
+N736: Quantitative Analysis of Clinical Research Data
 
-## COURSE DESCRIPTION
+## Course Objective:
+To build and expand upon the statistical theory and methods learned in BIOS 500 and 501 and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.
 
-This course will describe the concepts underlying the field of study identified as big data analytics along with its application in healthcare. The theoretical underpinnings of these concepts will be presented along with applications in healthcare, including knowledge discovery, precision medicine/nursing, and the development of targeted interventions to improve health outcomes. Commonly used methods in big data analytics will be reviewed, and the challenges related to gathering, analyzing, visualizing, and interpreting big data will be discussed. Hands-on computer laboratory experience with these techniques relevant to an identified area will be included.
+## Course Description: 
+This course builds on the required statistical sequence and focuses on practical application of statistics including understanding clinical research questions. Analyzing data is the major emphasis of the course including examining if assumptions of the statistical analysis are being met and interpreting the findings.  Course assignments focus on using statistical software and computing resources to analyze data sets from actual clinical research studies and interpretation of output and literature. 
 
-## COURSE OBJECTIVES
-
-At the end of this course the student will be able to successfully:
-
-1.	Demonstrate knowledge of the principles undergirding the tools of big data analysis in health related research.
-2.	Identify the potential of, and challenges to, incorporating big data analytics to improve the development and testing of precision medicine / nursing interventions.
-3.	Understand the principles of reproducible research and implement an appropriate workflow for data analysis and manuscript / report generation.
-4.	Effectively critique published research of health related studies conducted by using big data theoretical frameworks and research techniques.
-5.	Analyze ethical issues related to the use of big data analytics in health related research
-6.	Demonstrate knowledge of how data are gathered, stored, managed, and analyzed for big data analytics.
-
-## TEACHING AND LEARNING
-
-This course uses a variety of teaching methods, including readings, case presentations, lectures, practical skills application discussion sessions, simulation, and projects.
+## Planned Topics:
+* Computing Environment (SAS, SPSS, R, Other Supporting Software)
+* Getting data into and out of statistical software (import, export features)
+* Reproducible Research Principles (documentation, reporting, version control)
+* Initial data assessments: univariate and bivariate methods, parametric and non-parametric
+* Regression methods: linear, logistic and introduction to “generalized”
+* Analysis of (co)Variance: univariate and multivariate, ANOVA, ANCOVA, MANOVA, MANCOVA 
+* Longitudinal analysis: repeated measures with introduction to multi-level models (MLM)
+* Assessment and testing of data & model assumptions (including missing data)
+* Introduction to Factor Analysis, Reliability and Discriminant Analysis, and SEM (structural equation modeling) as time allows
