@@ -25,13 +25,13 @@ navbar:
     - text: "Useful Stuff"
       icon: fa-cog
       menu:
-        - text: "SPSS Download"
+        - text: "SPSS Student Grad Pack"
           href: spss.html
-        - text: "SPSS Download"
+        - text: "SAS University - FREE"
           href: sas.html
-        - text: "R, RStudio. Git, Github Links/Help"
+        - text: "R, RStudio, Git, Github - FREE"
           href: help.html
-        - text: "SPSS Download"
+        - text: "Stata Student Versions"
           href: stata.html
   right:
     - text: "Colophon"
