@@ -25,8 +25,14 @@ navbar:
     - text: "Useful Stuff"
       icon: fa-cog
       menu:
+        - text: "SPSS Download"
+          href: spss.html
+        - text: "SPSS Download"
+          href: sas.html
         - text: "R, RStudio. Git, Github Links/Help"
           href: help.html
+        - text: "SPSS Download"
+          href: stata.html
   right:
     - text: "Colophon"
       icon: fa-info-circle
