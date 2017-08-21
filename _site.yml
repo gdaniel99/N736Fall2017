@@ -14,7 +14,7 @@ navbar:
     - text: "Files"
       icon: fa-files-o
       href: files.html
-    - text: "Instructors"
+    - text: "Instructor"
       icon: fa-users
       href: about.html
     - text: "Syllabus"
