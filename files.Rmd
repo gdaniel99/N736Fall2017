@@ -4,17 +4,15 @@ title: "Files for the Course"
 
 ## <i class="fa fa-github fa-1x"></i> **Github** Repositories
 
-The files (R code, data, Rmarkdown files, etc) for this course have been placed into various **Github** repositories. Each of these repositories can be "Cloned or Downloaded (as a ZIP)" to your local harddrive for easy offline reference OR they can be "forked" so that a copy of the repository is "copied" into YOUR Github account. If you "fork" a copy be sure you are logged into your Github account first. Here are the **Github** repositories to date:
+Some files (code, data, files, etc) for this course may be shared and placed into various **Github** repositories. Each of these repositories can be "Cloned or Downloaded (as a ZIP)" to your local harddrive for easy offline reference OR they can be "forked" so that a copy of the repository is "copied" into YOUR Github account. If you "fork" a copy be sure you are logged into your Github account first. Here are the **Github** repositories to date:
 
-1. Gapminder Example (given on 01/18/2017) [https://github.com/melindahiggins2000/N741gapminder1](https://github.com/melindahiggins2000/N741gapminder1)
-    + This repository contains the `Rmarkdown` (RMD) and related files associated with "Lesson 2" done on 01/18/2017. These RMD files showed some initial `Rmarkdown` syntax with `R` chunks showcasing examples from the `gapminder` package, based on the vignette at [https://github.com/jennybc/gapminder](https://github.com/jennybc/gapminder).
-    + This repository also contains an RMD file with some examples worked similar to what is expected for Homework 01. 
-
-2. Private Repository for N741 at  [https://github.com/EmoryN741/coursefiles](https://github.com/EmoryN741/coursefiles). _[This is a placeholder for now]_
+1. Gapminder Example (given in N741 on 01/18/2017) [https://github.com/melindahiggins2000/N741gapminder1](https://github.com/melindahiggins2000/N741gapminder1)
+    + This repository contains the `Rmarkdown` (RMD) and related files associated with a lesson done in N741 ("Lesson 2" done on 01/18/2017). These RMD files showed some initial `Rmarkdown` syntax with `R` chunks showcasing examples from the `gapminder` package, based on the vignette at [https://github.com/jennybc/gapminder](https://github.com/jennybc/gapminder).
+    + This repository also contains an RMD file with some examples.
 
 ## <i class="fa fa-youtube fa-1x"></i> **YouTube** Videos for N741
 
-Short helpful videos for N741:
+Short helpful videos - posted on YouTube for N741 Spring 2017:
 
 1. Installing R, RStudio, Creating and "knitting" your first simple `Rmarkdown` file
     + [https://youtu.be/MsV5dJ2reQ4](https://youtu.be/MsV5dJ2reQ4)
