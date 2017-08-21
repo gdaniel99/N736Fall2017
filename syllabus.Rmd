@@ -131,8 +131,8 @@ Additional help outside of class time will be provided as requested (please send
 
 ## Class Calendar – Fall 2017
 
-Mon	| Wed	| Topic	| Homework DUE
-----|-----|-------|--------------------
+Mon	| Wed	| Topic                                        	| Homework DUE
+----|-----|-----------------------------------------------|--------------
 ---	| 8/23	| Introductions; Course Overview; Getting Started with your stats software (getting setup, get access to your data, getting started); Using Github repositories	| 
 8/28| 8/30	| Your statistical computing Environment, Data Import and Export (formats), Viewing, Variables, File handling, and Workflow; Data labels, value and missing data coding, other coding considerations, variable types (impact on modeling and graphics);Describing your data, evaluate missing	| H01 due 9/6
 ---	| 9/6	| Creating new variables; recoding; data cleaning and data formats; summarizing your data	| 
