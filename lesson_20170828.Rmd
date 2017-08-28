@@ -2,7 +2,7 @@
 title: "Intro to Git, Github, & Exploring Data"
 ---
 
-## <i class="fa fa-github fa-1x"></i> Github
+## <i class="fa fa-github fa-1x"></i> Github - here is a quick change
 
 **Github** [https://github.com/](https://github.com/) is a code & file sharing repository similar to Dropbox or Google Drive. However, Github has much more functionality built-in. Github utilizes <i class="fa fa-git-square fa-1x"></i> **Git** version control and tracking. Every file and every version of that file gets a `SHA` (Secure Hash Algorithm) tag, allowing you to track every change in that file from its creation. Not only do you get easy sharing and dissemination of files, you get automatic backup and version control tracking so you never lose your hard work again!
 
