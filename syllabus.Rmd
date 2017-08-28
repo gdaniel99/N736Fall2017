@@ -16,6 +16,7 @@ BIOS 500 and 501
 DAY         | TIME | LOCATION
 -----------:|:-----|:-----------------
 Mondays     | 11:00 – 11:50 am  | NRSG Room 110
+Exception   | Mon Aug 28, 2017  | NRSG Room 120
 Wednesdays  |  1:00-2:50 pm     | NRSG Room 108
 Exception   | Wed Aug 30, 2017  | NRSG Room 124
 Exception   | Wed Sept 20, 2017 | NRSG Room 124
