@@ -11,7 +11,7 @@
 
 
 
-<title>N736 Quantitative Analysis of Clinical Research Data</title>
+<title>Data Cleaning and Assessment - Part I</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -360,35 +360,39 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">N736 Quantitative Analysis of Clinical Research Data</h1>
+<h1 class="title toc-ignore">Data Cleaning and Assessment - Part I</h1>
 
 </div>
 
 
-<div id="course-number-title" class="section level2">
-<h2>COURSE NUMBER, TITLE:</h2>
-<p>N736: Quantitative Analysis of Clinical Research Data</p>
+<div id="reviewing-the-dataset---for-homework-01" class="section level2">
+<h2>Reviewing the dataset - for Homework 01</h2>
+<p>In today’s class we’ll get started exploring and finding the issues and problems with the dataset you’ll be working with for Homework 01. All of the files are uploaded into this Github repository <a href="https://github.com/melindahiggins2000/N736Homework01" class="uri">https://github.com/melindahiggins2000/N736Homework01</a>. Feel free to download the files (as a ZIP), or fork the repository to work with in your own Github repo.</p>
 </div>
-<div id="course-objective" class="section level2">
-<h2>Course Objective:</h2>
-<p>To build and expand upon the statistical theory and methods learned in BIOS 500 and 501 and improve the student’s statistical software experience and programming skills with SAS, SPSS or R to improve research scholarship and dissemination.</p>
+<div id="exploring-this-test-dataset" class="section level2">
+<h2>Exploring this test dataset</h2>
+<p>During class we identified a number of issues and put them up on the whiteboard. Here is a screenshot of the issues we found:</p>
+<p><a href="https://raw.githubusercontent.com/melindahiggins2000/N736Homework01/master/screenshot_20170830_150136.jpg" class="uri">https://raw.githubusercontent.com/melindahiggins2000/N736Homework01/master/screenshot_20170830_150136.jpg</a></p>
 </div>
-<div id="course-description" class="section level2">
-<h2>Course Description:</h2>
-<p>This course builds on the required statistical sequence and focuses on practical application of statistics including understanding clinical research questions. Analyzing data is the major emphasis of the course including examining if assumptions of the statistical analysis are being met and interpreting the findings. Course assignments focus on using statistical software and computing resources to analyze data sets from actual clinical research studies and interpretation of output and literature.</p>
-</div>
-<div id="planned-topics" class="section level2">
-<h2>Planned Topics:</h2>
+<div id="class-discussion-and-video" class="section level2">
+<h2>Class discussion and video</h2>
+<p>The discussion and video of my lecture on 08/30/2017 is now posted on Echo360 available through canvas and at this link: <a href="https://echo360.org/lesson/2ca62f2a-5cad-41b9-b111-596d4e5e55b4/classroom#sortDirection=desc" class="uri">https://echo360.org/lesson/2ca62f2a-5cad-41b9-b111-596d4e5e55b4/classroom#sortDirection=desc</a> <em><strong>You will need to login “via institution” - choose Emory and use your Emory login credentials to see the video.</strong></em></p>
+<p>Weblinks discussed in the video and during class:</p>
 <ul>
-<li>Computing Environment (SAS, SPSS, R, Other Supporting Software)</li>
-<li>Getting data into and out of statistical software (import, export features)</li>
-<li>Reproducible Research Principles (documentation, reporting, version control)</li>
-<li>Initial data assessments: univariate and bivariate methods, parametric and non-parametric</li>
-<li>Regression methods: linear, logistic and introduction to “generalized”</li>
-<li>Analysis of (co)Variance: univariate and multivariate, ANOVA, ANCOVA, MANOVA, MANCOVA</li>
-<li>Longitudinal analysis: repeated measures with introduction to multi-level models (MLM)</li>
-<li>Assessment and testing of data &amp; model assumptions (including missing data)</li>
-<li>Introduction to Factor Analysis, Reliability and Discriminant Analysis, and SEM (structural equation modeling) as time allows</li>
+<li><p>Journal of Biostatistics - author guidelines for “Reproducible Research” <a href="https://academic.oup.com/biostatistics/pages/General_Instructions" class="uri">https://academic.oup.com/biostatistics/pages/General_Instructions</a>.</p></li>
+<li><p>Gitbook <a href="https://www.gitbook.com/" class="uri">https://www.gitbook.com/</a>.</p></li>
+<li><p>Bookdown <a href="https://bookdown.org" class="uri">https://bookdown.org</a>.</p></li>
+<li><p>Yihui Xie’s book on the <code>bookdown</code> package <a href="https://bookdown.org/yihui/bookdown/" class="uri">https://bookdown.org/yihui/bookdown/</a>.</p></li>
+<li><p>Github repo for Yihui Xie’s “Dynamic Documents with R and knitr” - 1st 3 chapters available online <a href="https://github.com/yihui/knitr-book" class="uri">https://github.com/yihui/knitr-book</a>.</p></li>
+<li><p>Garrett Grolemund and Hadley Wickham’s book “R for Data Science” - also online at <a href="http://r4ds.had.co.nz/" class="uri">http://r4ds.had.co.nz/</a> &amp; if you’re interested, here is the Github repo for their book <a href="https://github.com/hadley/r4ds" class="uri">https://github.com/hadley/r4ds</a>.</p></li>
+<li><p>Tidyverse <a href="https://www.tidyverse.org/" class="uri">https://www.tidyverse.org/</a>.</p></li>
+<li><p>Washington Post Article on “An Alarming Number of Scientific Papers Contain Excel Errors” <a href="https://www.washingtonpost.com/news/wonk/wp/2016/08/26/an-alarming-number-of-scientific-papers-contain-excel-errors/?utm_term=.8ec47ce8bc16" class="uri">https://www.washingtonpost.com/news/wonk/wp/2016/08/26/an-alarming-number-of-scientific-papers-contain-excel-errors/?utm_term=.8ec47ce8bc16</a>.</p></li>
+<li><p>Genome Biology 2016 Paper on “Gene name error are widespread in the scientific literature” <a href="https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7" class="uri">https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7</a>.</p></li>
+<li><p>“The Excel Error heard Around the World” <a href="https://newrepublic.com/article/112951/rogoff-reinhart-and-world-excel-error-research" class="uri">https://newrepublic.com/article/112951/rogoff-reinhart-and-world-excel-error-research</a> &amp; more at <a href="http://nymag.com/daily/intelligencer/2013/04/grad-student-who-shook-global-austerity-movement.html" class="uri">http://nymag.com/daily/intelligencer/2013/04/grad-student-who-shook-global-austerity-movement.html</a>.</p></li>
+<li><p>“How Bright Promise in Cancer Testing Fell Apart” - Duke cancer trials controversy <a href="http://www.nytimes.com/2011/07/08/health/research/08genes.html?mcubz=1" class="uri">http://www.nytimes.com/2011/07/08/health/research/08genes.html?mcubz=1</a> &amp; “An array of errors” <a href="http://www.economist.com/node/21528593" class="uri">http://www.economist.com/node/21528593</a>.</p></li>
+<li><p>“A Manifesto for Reproducible Science” <a href="https://www.nature.com/articles/s41562-016-0021" class="uri">https://www.nature.com/articles/s41562-016-0021</a>.</p></li>
+<li><p>Center for Open Science <a href="https://cos.io/" class="uri">https://cos.io/</a> &amp; COS History <a href="https://cos.io/about/brief-history-cos-2013-2017/" class="uri">https://cos.io/about/brief-history-cos-2013-2017/</a>.</p></li>
+<li><p>Science “One in Five Genetics Papers Contains Errors Thanks to Microsoft Excel” <a href="http://www.sciencemag.org/news/sifter/one-five-genetics-papers-contains-errors-thanks-microsoft-excel" class="uri">http://www.sciencemag.org/news/sifter/one-five-genetics-papers-contains-errors-thanks-microsoft-excel</a>.</p></li>
 </ul>
 </div>
 

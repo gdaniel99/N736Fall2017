@@ -13,6 +13,10 @@ navbar:
           href: intro.html
         - text: "2. 08/28/2017 Intro Git, Github, Exploring Data"
           href: lesson_20170828.html
+        - text: "3. 08/30/2017 Data Cleaning and Assessment - Part I"
+          href: lesson_20170830.html
+        - text: "4. 09/06/2017 Data Cleaning and Assessment - Part II"
+          href: lesson_20170906.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
