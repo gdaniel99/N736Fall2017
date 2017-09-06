@@ -1,0 +1,15 @@
+---
+title: "Data Cleaning and Assessment - Part II"
+---
+
+## Reviewing the dataset - for Homework 01
+
+In today's class we'll continuing exploring and working with the issues and problems with the dataset you'll be working with for Homework 01. All of the files are uploaded into this Github repository [https://github.com/melindahiggins2000/N736Homework01](https://github.com/melindahiggins2000/N736Homework01). Feel free to download the files (as a ZIP), or fork the repository to work with in your own Github repo.
+
+## Slides
+
+Here is a link to the slides I'll show today 
+
+
+
+
