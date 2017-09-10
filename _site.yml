@@ -17,6 +17,8 @@ navbar:
           href: lesson_20170830.html
         - text: "4. 09/06/2017 Data Cleaning and Assessment - Part II"
           href: lesson_20170906.html
+        - text: "5. 09/11/2017 Data Wrangling"
+          href: lesson_20170911.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
