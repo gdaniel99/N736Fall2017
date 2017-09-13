@@ -21,6 +21,13 @@ navbar:
           href: lesson_20170911.html
         - text: "6. 09/13/2017 Data Wrangling - Part 2"
           href: lesson_20170913.html
+    - text: "Homework"
+      icon: fa-file-text
+      menu:
+        - text: "Homework 01 - due 09/06/2017"
+          href: homework01.html
+        - text: "Homework 02 - due 09/20/2017"
+          href: homework02.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
