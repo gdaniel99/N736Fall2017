@@ -23,6 +23,8 @@ navbar:
           href: lesson_20170913.html
         - text: "7. 09/18/2017 Univariate Descriptive Stats"
           href: lesson_20170918.html
+        - text: "8. 09/20/2017 Bivariate Statistics"
+          href: lesson_20170920.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
