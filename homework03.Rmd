@@ -18,4 +18,31 @@ Using the HELP dataset:
 
 See the WORD document template `N736Homework03_Template.docx` you can download from [https://github.com/melindahiggins2000/N736Fall2017/blob/master/N736Homework03_Template.docx](https://github.com/melindahiggins2000/N736Fall2017/blob/master/N736Homework03_Template.docx) - click "Download".
 
+## Variables in HELP dataset to be used for Homework 03
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+helpdata <- readRDS("helpmkh.rds")
+library(tidyverse)
+sub1 <- helpdata %>%
+  select(age,female,racegrp,homeless,a15a,
+         a15b,d1,e2b,g1b,i1,i2,pcs,mcs,
+         cesd,treat,pss_fr)
+
+# create a function to get the label
+# label output from the attributes() function
+getlabel <- function(x) attributes(x)$label
+# getlabel(sub1$age)
+
+library(purrr)
+ldf <- purrr::map_df(sub1, getlabel) # this is a 1x15 tibble data.frame
+# t(ldf) # transpose for easier reading to a 15x1 single column list
+
+# using knitr to get a table of these
+# variable names for Rmarkdown
+library(knitr)
+knitr::kable(t(ldf),
+             col.names = c("Variable Label"),
+             caption="Use these variables from HELP dataset for Homework 03")
+
+```
 
