@@ -2,6 +2,10 @@
 title: "Syllabus"
 ---
 
+## _**Syllabus - Updated 09/24/2017**_
+
+_Please note that some of the topics have been updated slightly in the "Class Calendar" section below._
+
 ## COURSE NUMBER, TITLE:
 NRSG 736, Quantitative Analysis of Clinical Research Data
 
@@ -141,8 +145,8 @@ Mon	| Wed	| Topic                                        	| Homework DUE
 ---	| 9/6	| Creating new variables; recoding; data cleaning and data formats; summarizing your data	| 
 9/11 | 9/13	| Univariate and Bivariate Statistics (tests and graphics)	| H02 due 9/20
 9/18 | 9/20	| Univariate and Bivariate Statistics (tests and graphics) - continued	| 
-9/25| 9/27	| More than 2: Introduction to One-way ANOVA and Simple Linear Regression – understanding Factors and Covariates	| H03 & Milestone 1 due 10/4
-10/2 | 10/4	| Evaluating “Theoretical” Covariates (in ANOVA and Regression) and Interaction Effects (Moderation and Testing Homogenity of Slopes assumptions)	| 
+9/25| 9/27	| Introduction to Bootstrapping & More on Bivariate Statistics	| H03 & Milestone 1 due 10/4
+10/2 | 10/4	| More than 2 groups: Introduction to One-way ANOVA and Simple Linear Regression – understanding Factors and Covariates & Evaluating “Theoretical” Covariates (in ANOVA and Regression) and Interaction Effects (Moderation and Testing Homogenity of Slopes assumptions)	| 
 ---	| 10/11	| Understanding the impact of the Correlation Matrix (confounding, multicollinearity, sequential regression); Regression diagnostics;	| H04 due 10/18
 10/16 | 10/18	| More than 2: Introduction to Two-way/Mixed ANOVA and Multivariate Linear Regression – reviewing multicollinearity and regression assumptions – model building process	| 
 10/23 | 10/25	| More on Regression Diagnostics and Model Fitting	| H05 due 11/1
