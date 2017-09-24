@@ -8,6 +8,7 @@ Using the HELP dataset:
 
 * create "Table 1"
 * provide the summary stats for the baseline data - overall and by randomization group (Usual Care versus the HELP Clinic)
+     - HELP dataset variables to include: `age, female, racegrp, homeless, a15a, a15b, d1, e2b, g1b, i1, i2, pss_fr, pcs, mcs, cesd, treat`.
 * determine whether you want to provide parametric or non-parametric stats - based on your determination of normality assumptions, sample size considerations, appropriateness of the statistical test and communication with your audience.
 * include the appropriate statistical test comparing the group measurements and subject characteristics at baseline
 * write a statistical methods section describing (and explaining to your readers) the methods you used to create Table 1 and why you choose those methods to make the comparisons between the groups
