@@ -13,6 +13,8 @@ Using the HELP dataset:
 * write a statistical methods section describing (and explaining to your readers) the methods you used to create Table 1 and why you choose those methods to make the comparisons between the groups
 * write 1-2 paragraphs (as the beginning of a results section) describing the sample overall at baseline and by group (use the data you presented in Table 1 to help you).
 
-## Report Template
+## Report Template for Homework 03
 
-See the WORD document template `N736Homework03_Template.docx` you can download 
+See the WORD document template `N736Homework03_Template.docx` you can download from [https://github.com/melindahiggins2000/N736Fall2017/blob/master/N736Homework03_Template.docx](https://github.com/melindahiggins2000/N736Fall2017/blob/master/N736Homework03_Template.docx) - click "Download".
+
+
