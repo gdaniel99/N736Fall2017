@@ -25,6 +25,8 @@ navbar:
           href: lesson_20170918.html
         - text: "8. 09/20/2017 Bivariate Statistics"
           href: lesson_20170920.html
+        - text: "9. 09/25/2017 Introduction to Bootstrapping"
+          href: lesson_20170925.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
