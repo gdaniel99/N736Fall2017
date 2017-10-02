@@ -11,7 +11,7 @@
 
 
 
-<title>Homework 03</title>
+<title>Building Models</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -404,98 +404,59 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Homework 03</h1>
+<h1 class="title toc-ignore">Building Models</h1>
 
 </div>
 
 
-<div id="homework-03---due-10042017" class="section level2">
-<h2>Homework 03 - due 10/04/2017</h2>
-<p>Using the HELP dataset:</p>
+<div id="lesson-11-building-models---regression-anova-etc" class="section level2">
+<h2>Lesson 11: Building Models - Regression &amp; ANOVA, etc…</h2>
+<p>This lesson begins the discussion of building models - regression models (linear regression, logistic regression, generalized linear models) and ANOVA (one-way, two-way, mixed) and others…</p>
+<p>We will be referring to the PPT/PDF slides:</p>
 <ul>
-<li>create a first draft of “Table 1” (see example below)</li>
-<li>provide the summary stats for the baseline data - overall and by gender</li>
-<li>determine whether you want to provide parametric or non-parametric stats</li>
-<li>include the appropriate statistical test comparing the baseline measurements and variables by gender</li>
-<li>write a statistical methods section on the methods you used to create Table 1 and make the comparisons by gender</li>
-<li>write 1-2 paragraphs describing the sample overall at baseline and by group (use the data in table 1 to help you)</li>
+<li><code>ResearchRoundtableBuildRegressionModel_final14Nov08.ppt</code> <a href="https://github.com/melindahiggins2000/N736Fall2017/blob/master/ResearchRoundtableBuildRegressionModel_final14Nov08.ppt" class="uri">https://github.com/melindahiggins2000/N736Fall2017/blob/master/ResearchRoundtableBuildRegressionModel_final14Nov08.ppt</a></li>
+<li><code>ResearchRoundtableBuildRegressionModel_final14Nov08.pdf</code> <a href="https://github.com/melindahiggins2000/N736Fall2017/blob/master/ResearchRoundtableBuildRegressionModel_final14Nov08.pdf" class="uri">https://github.com/melindahiggins2000/N736Fall2017/blob/master/ResearchRoundtableBuildRegressionModel_final14Nov08.pdf</a></li>
 </ul>
 </div>
-<div id="table-1" class="section level2">
-<h2>Table 1</h2>
-<hr />
-<table>
-<thead>
-<tr class="header">
-<th align="center">variable</th>
-<th align="center">N</th>
-<th align="center">Overall mean (SD)</th>
-<th align="center">N</th>
-<th align="center">Male mean (SD)</th>
-<th align="center">N</th>
-<th align="center">Female mean (SD)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">age</td>
-<td align="center">x</td>
-<td align="center">x.x(x.x)</td>
-<td align="center">x</td>
-<td align="center">x.x(x.x)</td>
-<td align="center">x</td>
-<td align="center">x.x(x.x)</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="center">variable</th>
-<th align="center">N</th>
-<th align="center">Overall med [IQR]</th>
-<th align="center">N</th>
-<th align="center">Male med [IQR]</th>
-<th align="center">N</th>
-<th align="center">Female med [IQR]</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">mcs</td>
-<td align="center">x</td>
-<td align="center">x.x[x.x,x.x]</td>
-<td align="center">x</td>
-<td align="center">x.x[x.x,x.x]</td>
-<td align="center">x</td>
-<td align="center">x.x[x.x,x.x]</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr class="header">
-<th align="center">variable</th>
-<th align="center">N</th>
-<th align="center">Overall n [(%)</th>
-<th align="center">N</th>
-<th align="center">Male n (%)</th>
-<th align="center">N</th>
-<th align="center">Female n (%)</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td align="center">female</td>
-<td align="center">x</td>
-<td align="center">x (x%)</td>
-<td align="center">x</td>
-<td align="center">x (x%)</td>
-<td align="center">x</td>
-<td align="center">x (x%)</td>
-</tr>
-</tbody>
-</table>
+<div id="consider-steps-checklists-assumptions" class="section level2">
+<h2>Consider Steps, checklists, assumptions, …</h2>
+<ol style="list-style-type: decimal">
+<li><p>Assume that the terms are “linearly”&quot; related to the outcome - that relationship is linear (either directly or through transformations)</p></li>
+<li>The “slope” or “relationship” between X &amp; Y is assumed to be “constant” / “consistent” across all levels of X
+<ul>
+<li>same slope from 1-to-2 as from 200-to-201</li>
+<li>changing from “strongly disagree” - to - “disagree” is assumed to have the same impact on Y as going from “neutral” - to - “agree” [e.g. LiKert scale data] - useful case when looking at both “regression” and “ANOVA” type models can be useful
+<ul>
+<li>5 = “strongly agree”</li>
+<li>4 = “agree”</li>
+<li>3 = “neutral”</li>
+<li>2 = “disagree”</li>
+<li>1 = “strongly disagree”</li>
+</ul></li>
+<li>a “similar” type case for longitudinal data (“repeated measures”) where there are 3 sequential “time” points 0, 1, 2. Could treat “time” as continuous (slope over time), but:
+<ul>
+<li>0 = “baseline”</li>
+<li>1 = “immediately post-treatment” - usually greatest measure of treatment effect</li>
+<li>2 = “next follow-up post treatment” - typically no further intervention or treatment was received - this is really a measure of sustained effect, often not a measure of continued “dose” response</li>
+</ul></li>
+</ul></li>
+<li><p>We assume that Y was observed for all levels of X and that it was observed “evenly” (“balanced” experimental design) - “Anscome Quartet”</p></li>
+<li><p>The independent variables are independent of one another (no multicollinearity) – although some “mild/minor” correlation may be tolerated (VIF/TOL).</p></li>
+<li><p>Any case which has “missing” data on any of the IVs or DV will be eliminated from the analysis (listwise deletion).</p></li>
+<li><p>The intercept and all coefficients for the IVs are “Fixed.” <em>[“Random Coefficient Models” to be discussed later.]</em></p></li>
+<li><p>We assume that the variance of Y is constant across all levels of X (assumption of homogeneity of variance) - important for regression and ANOVA (e.g. “Levene’s test”)</p></li>
+<li><p>The “error” term is additive (not multiplicative)</p></li>
+<li>Assume “errors” (“residuals”) are normally distributed, identical and independent ~iid N(mu,sigma).
+<ul>
+<li>normality checks</li>
+<li>check to see if residuals are independent - trend by sequnce (collection order of data) - related to sampling independence (e.g. family members are not independent)</li>
+<li>see if residuals are related to other X’s either in or out of the model (plots of “e” vs X’s)</li>
+<li>see if residuals are related to Y (plot “e” vs Y)</li>
+<li>look for outliers</li>
+<li>look for influential values</li>
+</ul></li>
+</ol>
+<p><em>[next lesson - discussion of Type I, II and III sums of squares - differences in SPSS, SAS and R]</em></p>
 </div>
 
 <hr>

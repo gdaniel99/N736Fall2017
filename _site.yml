@@ -29,6 +29,8 @@ navbar:
           href: lesson_20170925.html
         - text: "10. 09/27/2017 Missing Data"
           href: lesson_20170927.html
+        - text: "11. 10/02/2017 Building Models"
+          href: lesson_20171002.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
