@@ -31,6 +31,8 @@ navbar:
           href: lesson_20170927.html
         - text: "11. 10/02/2017 Building Models"
           href: lesson_20171002.html
+        - text: "12. 10/04/2017 Simple Regression & ANOVA"
+          href: lesson_20171004.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
