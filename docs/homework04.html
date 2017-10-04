@@ -11,7 +11,7 @@
 
 
 
-<title>Homework 01</title>
+<title>Homework 04</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -410,29 +410,88 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Homework 01</h1>
+<h1 class="title toc-ignore">Homework 04</h1>
 
 </div>
 
 
-<div id="homework-01---due-09062017" class="section level2">
-<h2>Homework 01 - due 09/06/2017</h2>
-<p>The Homework 01 assignment is posted at <a href="https://github.com/melindahiggins2000/N736Testdataset/blob/master/Homework01.pdf" class="uri">https://github.com/melindahiggins2000/N736Testdataset/blob/master/Homework01.pdf</a>.</p>
-<p>You will need the files at <a href="https://github.com/melindahiggins2000/N736Testdataset" class="uri">https://github.com/melindahiggins2000/N736Testdataset</a>.</p>
-</div>
-<div id="instructions-for-homework-01" class="section level2">
-<h2>Instructions for Homework 01</h2>
+<div id="homework-04---due-10182017" class="section level2">
+<h2>Homework 04 - due 10/18/2017</h2>
+<p>For Homework 04, you will be using the HELP dataset, learn more at:</p>
+<ul>
+<li><a href="https://melindahiggins2000.github.io/N736Fall2017_HELPdataset/" class="uri">https://melindahiggins2000.github.io/N736Fall2017_HELPdataset/</a> &amp;</li>
+<li><a href="https://github.com/melindahiggins2000/N736Fall2017_HELPdataset" class="uri">https://github.com/melindahiggins2000/N736Fall2017_HELPdataset</a></li>
+</ul>
+<p>Complete the following:</p>
 <ol style="list-style-type: decimal">
-<li>Using your statistical software of choice, read in the dataset “Dataset_02” from the <code>*.CSV</code>, <code>*.XLS</code> or <code>*.XLSX</code> format.</li>
-<li>Create an analysis report that explains <strong><code>every step you did</code></strong> - including anything you did manually. Ideally, everything you do to the dataset for fixing the errors or identifying the issues you spot in the data should be done using CODE (aka SYNTAX) so that someone else can take your code and reproduce your results. <em>[Remember, that “someone else” might be you in a few weeks when you’ve forgotten what you did earlier…]</em></li>
-<li>Provide comments and an explanation in your analysis report and in your code for each issue you find and fix.</li>
-<li>HINT: There are 10 issues to identify or problems to fix in this dataset. One of the issues might have to be done manually, but you should still explain what you did to fix it, even if you did it manually.</li>
-<li>Turn in - upload to CANVAS no later than Sept 6, 2017 11:59pm:
-<ol style="list-style-type: upper-alpha">
-<li>An analysis/data preparation report (in either <code>DOC</code> or <code>PDF</code> format) - don’t forget to format your report nicely, make sure your name and date is included and</li>
-<li>your code/syntax with your comments and commands used to reproduce your results (you can upload your code in either <code>*.R</code>, <code>*.sas</code>, <code>*.sps</code> or <code>*.txt</code> (i.e. plain text) formats)</li>
-</ol></li>
+<li>Perform a Simple Linear Regression for:
+<ul>
+<li>OUTCOME variable <code>indtot</code>: “Inventory of Drug Use Consequences (InDue) total score - Baseline”</li>
+<li>PREDICTOR variable <code>mcs</code>: “SF36 Mental Composite Score - Baseline”</li>
+<li>decide if you want to transform either variable <code>indtot</code> or <code>mcs</code> and if so, what transformation you applied and why</li>
+</ul></li>
+<li>Perform regression diagnostics:
+<ul>
+<li>check the normality of the residuals (histogram and Q-Q plots)</li>
+<li>check for linearity - is there any systematic relationship between the residuals and the predicted (or fitted) values?</li>
+<li>homoscedasticity - plot of standardized residuals versus fitted values - this is known as a “Scale-Location” graph.</li>
+<li>check for outliers and data points with high leverage or influence: outliers are often identified with standardized residuals &gt; 3 (or &lt;-3) and influential observations are often identified using Cook’s D</li>
+</ul></li>
+<li>Provide a summary of the regression results.
+<ul>
+<li>provide a <strong>FIGURE</strong> of the model, in this case a scatterplot with the fitted line overlaid and 95% confidence intervals if you can</li>
+<li>Make a <strong>TABLE</strong> presenting the fitted regression model (coefficients and tests of significance for those coefficients)</li>
+<li>describe the variance explained by the model (based on r2)</li>
+<li>describe the model itself based on the y-intercept and slope terms</li>
+<li>note any limitations or issues with the model fit or interpretation of the model</li>
+</ul></li>
+<li>Perform a One-way ANOVA for:
+<ul>
+<li>OUTCOME variable <code>indtot</code>: “Inventory of Drug Use Consequences (InDue) total score - Baseline”</li>
+<li>GROUP variable <code>racegrp</code>: “Racial Group of Respondent”</li>
+<li>I would suggest merging “other” and “hispanic” together and create a 3-group variable for race, since the “other” category is only about 6% of the sample.</li>
+<li>options - you can use either an ANOVA or GLM modeling approach</li>
+<li>if the GROUP variable is significant, also perform <em>post hoc</em> tests - use some kind of pairwise error rate adjustment (i.e. bonferroni, sidak, Tukey’s HSD, etc) - be sure to report which one you used and why</li>
+</ul></li>
+<li>Perform model diagnostics:
+<ul>
+<li>homoscedasticity - look at a test for equal variance (Levene’s test or Bartlett’s test).</li>
+<li>if this test of equal variances fails, you may want to report a modified F-test (e.g. Welch’s test)</li>
+</ul></li>
+<li>Present a summary of the ANOVA results.
+<ul>
+<li>Make a <strong>FIGURE</strong> of the group mean differences - either an error-bar plot or a series of boxplots one for each group to show the group differences in the outcome</li>
+<li>Make a <strong>TABLE</strong> presenting the ANOVA results</li>
+<li>describe the model results - was the GROUP (<code>racegrp</code>) significant?</li>
+<li>If GROUP is significant, what did the post hoc tests reveal?</li>
+</ul></li>
 </ol>
+</div>
+<div id="variables-in-help-dataset-to-be-used-for-homework-04" class="section level2">
+<h2>Variables in HELP dataset to be used for Homework 04</h2>
+<table>
+<caption>Use these variables from HELP dataset for Homework 04</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="left">Variable Label</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>racegrp</td>
+<td align="left">Racial Group of Respondent</td>
+</tr>
+<tr class="even">
+<td>indtot</td>
+<td align="left">Inventory of Drug Use Consequences (InDue) total score - Baseline</td>
+</tr>
+<tr class="odd">
+<td>mcs</td>
+<td align="left">SF36 Mental Composite Score - Baseline</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 <hr>
