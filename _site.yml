@@ -33,6 +33,8 @@ navbar:
           href: lesson_20171002.html
         - text: "12. 10/04/2017 Simple Regression & ANOVA"
           href: lesson_20171004.html
+        - text: "13. 10/11/2017 Multivariate Regression & Variable Selection"
+          href: lesson_20171011.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
