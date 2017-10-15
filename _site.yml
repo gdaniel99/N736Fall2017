@@ -35,6 +35,8 @@ navbar:
           href: lesson_20171004.html
         - text: "13. 10/11/2017 Multivariate Regression & Variable Selection"
           href: lesson_20171011.html
+        - text: "14,15. 10/16&18/2017 Interactions, Moderators, Covariates, Factors"
+          href: lesson_2017101618.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
