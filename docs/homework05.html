@@ -11,7 +11,7 @@
 
 
 
-<title>Textbook: Practical Data Science with R</title>
+<title>Homework 05</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -422,28 +422,63 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Textbook: Practical Data Science with R</h1>
+<h1 class="title toc-ignore">Homework 05</h1>
 
 </div>
 
 
-<div id="practical-data-science-with-r---website" class="section level2">
-<h2>Practical Data Science with R - Website</h2>
-<p>The website for the textbook, <em>“Practical Data Science with R”</em> is <a href="http://www.win-vector.com/blog/practical-data-science-with-r/" class="uri">http://www.win-vector.com/blog/practical-data-science-with-r/</a>. This supporting website has links to the code and datasets used in the book.</p>
+<div id="homework-05---due-11012017" class="section level2">
+<h2>Homework 05 - due 11/01/2017</h2>
+<p>For Homework 05, you will be using the HELP dataset, learn more at:</p>
+<ul>
+<li><a href="https://melindahiggins2000.github.io/N736Fall2017_HELPdataset/" class="uri">https://melindahiggins2000.github.io/N736Fall2017_HELPdataset/</a> &amp;</li>
+<li><a href="https://github.com/melindahiggins2000/N736Fall2017_HELPdataset" class="uri">https://github.com/melindahiggins2000/N736Fall2017_HELPdataset</a></li>
+</ul>
+<p>Complete the following:</p>
+<ol style="list-style-type: decimal">
+<li>Run ANCOVA for the association between the SF36 Mental Component Score (<code>mcs</code>) and Inventory of Drug Use (<code>indtot</code>) adjusting for perceived social support from friends (<code>pss_fr</code>). Remember to:
+<ul>
+<li>center continuous variables before computing the interaction term</li>
+<li>check for the assumption of homogenity of variance (e.g. is the interaction term significant?)</li>
+<li>make an “effects plot” plot of the interaction between <code>mcs</code> and <code>pss_fr</code></li>
+</ul></li>
+<li>Run ANCOVA for the association between the SF36 Mental Component Score (<code>mcs</code>) and Inventory of Drug Use (<code>indtot</code>) adjusting for gender (<code>female</code>). Remember to:
+<ul>
+<li>center continuous variables before computing the interaction term</li>
+<li>check for the assumption of homogenity of variance (e.g. is the interaction term significant?)</li>
+<li>make an “effects plot” plot of the interaction between <code>mcs</code> and <code>female</code></li>
+</ul></li>
+</ol>
 </div>
-<div id="github-repository-for-the-textbook" class="section level2">
-<h2>Github Repository for the Textbook</h2>
-<p>In fact, the majority of the links on the textbook website point to their <i class="fa fa-github fa-2x"></i> <strong>Github</strong> repository at <a href="https://github.com/WinVector/zmPDSwR" class="uri">https://github.com/WinVector/zmPDSwR</a>. If you wish, you can “Clone or Download (as a ZIP)” the entire repository for easy offline reference.</p>
-</div>
-<div id="datasets-used-in-textbook" class="section level2">
-<h2>Datasets Used in Textbook</h2>
-<p>The direct link to the Github <code>zmPDSwR</code> Repository folders is <a href="https://github.com/WinVector/zmPDSwR" class="uri">https://github.com/WinVector/zmPDSwR</a>.</p>
-<p>The <code>README</code> file which loads at the bottom of the page linked above, lists the example datasets. Each dataset has a link to the folder with the data, associated files, and a description of the data and suggested analysis examples as presented within the textbook.</p>
-<p>For example, see the worked example (done in Rmarkdown) for <code>bioavailability</code> <a href="https://github.com/WinVector/zmPDSwR/tree/master/bioavailability" class="uri">https://github.com/WinVector/zmPDSwR/tree/master/bioavailability</a>, which presents an example of evaluating the “Caco-2 permeability assay”.</p>
-</div>
-<div id="reproducible-examples" class="section level2">
-<h2>“Reproducible” Examples</h2>
-<p>The textbook repository also provides the <code>Rmarkdown</code> code/templates for worked examples from the book. See <a href="https://github.com/WinVector/zmPDSwR/tree/master/RunExamples" class="uri">https://github.com/WinVector/zmPDSwR/tree/master/RunExamples</a> for complete files that can be <em>“knitted”</em> to “…set up the correct context to run each and every snippet extracted from the book…”</p>
+<div id="variables-in-help-dataset-to-be-used-for-homework-05" class="section level2">
+<h2>Variables in HELP dataset to be used for Homework 05</h2>
+<table>
+<caption>Use these variables from HELP dataset for Homework 05</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="left">Variable Label</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>indtot</td>
+<td align="left">Inventory of Drug Use Consequences (InDue) total score - Baseline</td>
+</tr>
+<tr class="even">
+<td>mcs</td>
+<td align="left">SF36 Mental Composite Score - Baseline</td>
+</tr>
+<tr class="odd">
+<td>pss_fr</td>
+<td align="left">Perceived Social Support - friends</td>
+</tr>
+<tr class="even">
+<td>female</td>
+<td align="left">Gender of respondent</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 <hr>

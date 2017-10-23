@@ -37,6 +37,8 @@ navbar:
           href: lesson_20171011.html
         - text: "14,15. 10/16&18/2017 Interactions, Moderators, Covariates, Factors"
           href: lesson_2017101618.html
+        - text: "16. 10/23/2017 Power, Sample Size, Effect Size"
+          href: lesson_20171023.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
@@ -50,6 +52,8 @@ navbar:
           href: project01.html
         - text: "Homework 04 - due 10/18/2017"
           href: homework04.html
+        - text: "Homework 05 - due 11/01/2017"
+          href: homework05.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
