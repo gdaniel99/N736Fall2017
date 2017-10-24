@@ -39,6 +39,8 @@ navbar:
           href: lesson_2017101618.html
         - text: "16. 10/23/2017 Power, Sample Size, Effect Size"
           href: lesson_20171023.html
+        - text: "17. 10/25/2017 Analysis of Covariance (ANCOVA)"
+          href: lesson_20171025.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
