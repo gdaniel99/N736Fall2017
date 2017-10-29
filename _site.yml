@@ -41,6 +41,8 @@ navbar:
           href: lesson_20171023.html
         - text: "17. 10/25/2017 Analysis of Covariance (ANCOVA)"
           href: lesson_20171025.html
+        - text: "18,19. 10/30 & 11/1/2017 Logistic Regression and Generalized Linear Regression"
+          href: lesson_20171030.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
