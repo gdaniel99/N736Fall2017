@@ -43,6 +43,8 @@ navbar:
           href: lesson_20171025.html
         - text: "18,19. 10/30 & 11/1/2017 Logistic Regression and Generalized Linear Regression"
           href: lesson_20171030.html
+        - text: "20. 11/06/2017 Poisson and Negative Binomial Regression"
+          href: lesson_20171106.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
