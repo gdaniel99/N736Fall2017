@@ -11,7 +11,7 @@
 
 
 
-<title>Files for the Course</title>
+<title>Homework 06</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -437,50 +437,99 @@ div.tocify {
 
 
 
-<h1 class="title toc-ignore">Files for the Course</h1>
+<h1 class="title toc-ignore">Homework 06</h1>
 
 </div>
 
 
-<div id="github-repositories" class="section level2">
-<h2><i class="fa fa-github fa-1x"></i> <strong>Github</strong> Repositories</h2>
-<p>Some files (code, data, files, etc) for this course may be shared and placed into various <strong>Github</strong> repositories. Each of these repositories can be “Cloned or Downloaded (as a ZIP)” to your local harddrive for easy offline reference OR they can be “forked” so that a copy of the repository is “copied” into YOUR Github account. If you “fork” a copy be sure you are logged into your Github account first. Here are the <strong>Github</strong> repositories to date:</p>
-<ol style="list-style-type: decimal">
-<li>Gapminder Example (given in N741 on 01/18/2017) <a href="https://github.com/melindahiggins2000/N741gapminder1" class="uri">https://github.com/melindahiggins2000/N741gapminder1</a>
+<div id="homework-06---due-11152017" class="section level2">
+<h2>Homework 06 - due 11/15/2017</h2>
+<div id="logistic-regression" class="section level3">
+<h3>Logistic Regression</h3>
+<p>For Homework 06, you will be using the HELP dataset, learn more at:</p>
 <ul>
-<li>This repository contains the <code>Rmarkdown</code> (RMD) and related files associated with a lesson done in N741 (“Lesson 2” done on 01/18/2017). These RMD files showed some initial <code>Rmarkdown</code> syntax with <code>R</code> chunks showcasing examples from the <code>gapminder</code> package, based on the vignette at <a href="https://github.com/jennybc/gapminder" class="uri">https://github.com/jennybc/gapminder</a>.</li>
-<li>This repository also contains an RMD file with some examples.</li>
-</ul></li>
-</ol>
-</div>
-<div id="youtube-videos-for-n741" class="section level2">
-<h2><i class="fa fa-youtube fa-1x"></i> <strong>YouTube</strong> Videos for N741</h2>
-<p>Short helpful videos - posted on YouTube for N741 Spring 2017:</p>
-<ol style="list-style-type: decimal">
-<li>Installing R, RStudio, Creating and “knitting” your first simple <code>Rmarkdown</code> file
-<ul>
-<li><a href="https://youtu.be/MsV5dJ2reQ4" class="uri">https://youtu.be/MsV5dJ2reQ4</a></li>
-</ul></li>
-<li>Installing Git for Windows
-<ul>
-<li><a href="https://youtu.be/2HKwywX7Wls" class="uri">https://youtu.be/2HKwywX7Wls</a></li>
-</ul></li>
-<li>Worked Example and Hints for Homework 01
-<ul>
-<li><a href="https://youtu.be/WlqyYwwEC8w" class="uri">https://youtu.be/WlqyYwwEC8w</a></li>
-</ul></li>
-<li>Video tutorial for creating the Github output MD format at <a href="https://youtu.be/SY-Uo3hLC18" class="uri">https://youtu.be/SY-Uo3hLC18</a>
-<ul>
-<li>This short (~5 min) video is on creating a “Github-flavored” markdown file. If you haven’t noticed yet, take a look back at your Github repository and look at one of your RMD files. You’ll notice that for the RMD file you can view the text and R code but no R output is shown. This is because the R code is not executed via Github (remember R is on your local machine not “in the cloud”). Instead, you need to create a “markdown” MD file that does have the R output included. To do this, there is a “github_document” output format you can use that will create a “github-flavored” MD (markdown) file that Github will display with both your R code and R output in the same document. See the RStudio documentation at <a href="http://rmarkdown.rstudio.com/github_document_format.html" class="uri">http://rmarkdown.rstudio.com/github_document_format.html</a></li>
-</ul></li>
-<li>Video on Publishing Your Reports to RPubs <a href="https://youtu.be/nW2TJ134ea0" class="uri">https://youtu.be/nW2TJ134ea0</a></li>
-</ol>
-<div id="youtube-playlist-for-n741" class="section level3">
-<h3>YouTube Playlist for N741</h3>
-<ul>
-<li>All of these Videos have been compiled into a N741 You Tube “playlist” at <a href="https://www.youtube.com/playlist?list=PLUDpSUA5mvSzL7XwtIZjxeZpP9aLMk4C6" class="uri">https://www.youtube.com/playlist?list=PLUDpSUA5mvSzL7XwtIZjxeZpP9aLMk4C6</a></li>
+<li><a href="https://melindahiggins2000.github.io/N736Fall2017_HELPdataset/" class="uri">https://melindahiggins2000.github.io/N736Fall2017_HELPdataset/</a> &amp;</li>
+<li><a href="https://github.com/melindahiggins2000/N736Fall2017_HELPdataset" class="uri">https://github.com/melindahiggins2000/N736Fall2017_HELPdataset</a></li>
 </ul>
+<p>Refer to the logistic regression analysis example and codes we ran during lesson 18 and 19 - see <a href="https://github.com/melindahiggins2000/N736Fall2017_lesson1819" class="uri">https://github.com/melindahiggins2000/N736Fall2017_lesson1819</a></p>
+<p>For the HELP dataset:</p>
+<ul>
+<li>OUTCOME VARIABLE: consider the variable <code>g1b</code> “Experienced serious thoughts of suicide (last 30 days) - Baseline”</li>
+<li>PREDICTOR VARIABLE: consider these variables as potential predictors for <code>g1b</code>:
+<ul>
+<li><code>age</code>, <code>female</code>, <code>pss_fr</code>, <code>homeless</code>, <code>pcs</code>, <code>mcs</code>, <code>cesd</code>, <code>indtot</code></li>
+</ul></li>
+</ul>
+<p>Complete the following:</p>
+<ol style="list-style-type: decimal">
+<li>Consider the continuous variable <code>cesd</code> as a predictor for <code>g1b</code>
+<ol style="list-style-type: lower-alpha">
+<li>run a logistic regression of the probability of suicidal thoughts (<code>g1b</code>) given their depressive symptoms scores (<code>cesd</code>)</li>
+<li>make a plot of the the predicted probability of suicidal thoughts (<code>g1b</code>) by the depressive symptoms scores (<code>cesd</code>)</li>
+<li>what value of the <code>cesd</code> leads to a probability of suicidal thoughts =&gt; 0.5? <em>(hint: use the plot you just made)</em></li>
+</ol></li>
+<li>Using variable selection methods, develop a logistic regression model for the probability of suicidal thoughts (<code>g1b</code>) considering all of these variables for possible inclusion: <code>age</code>, <code>female</code>, <code>pss_fr</code>, <code>homeless</code>, <code>pcs</code>, <code>mcs</code>, <code>cesd</code>, <code>indtot</code>
+<ol style="list-style-type: lower-alpha">
+<li>present the final model results</li>
+<li>write a few sentences describing your results including:
+<ol style="list-style-type: lower-roman">
+<li>model fit</li>
+<li>model classification table results - remember to report the threshold used for the classification table - you can change it from 0.5 if you think a different threshold might work better</li>
+<li>odds ratios for each significant predictor in the model</li>
+</ol></li>
+</ol></li>
+</ol>
 </div>
+</div>
+<div id="variables-in-help-dataset-to-be-used-for-homework-06" class="section level2">
+<h2>Variables in HELP dataset to be used for Homework 06:</h2>
+<table>
+<caption>Use these variables from HELP dataset for Homework 06</caption>
+<thead>
+<tr class="header">
+<th></th>
+<th align="left">Variable Label</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>g1b</td>
+<td align="left">Experienced serious thoughts of suicide (last 30 days) - Baseline</td>
+</tr>
+<tr class="even">
+<td>age</td>
+<td align="left">Age at baseline (in years)</td>
+</tr>
+<tr class="odd">
+<td>female</td>
+<td align="left">Gender of respondent</td>
+</tr>
+<tr class="even">
+<td>pss_fr</td>
+<td align="left">Perceived Social Support - friends</td>
+</tr>
+<tr class="odd">
+<td>homeless</td>
+<td align="left">One or more nights on the street or shelter in past 6 months</td>
+</tr>
+<tr class="even">
+<td>pcs</td>
+<td align="left">SF36 Physical Composite Score - Baseline</td>
+</tr>
+<tr class="odd">
+<td>mcs</td>
+<td align="left">SF36 Mental Composite Score - Baseline</td>
+</tr>
+<tr class="even">
+<td>cesd</td>
+<td align="left">CESD total score - Baseline</td>
+</tr>
+<tr class="odd">
+<td>indtot</td>
+<td align="left">Inventory of Drug Use Consequences (InDue) total score - Baseline</td>
+</tr>
+</tbody>
+</table>
 </div>
 
 <hr>
