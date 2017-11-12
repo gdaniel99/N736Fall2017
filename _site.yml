@@ -47,6 +47,8 @@ navbar:
           href: lesson_20171106.html
         - text: "21. 11/08/2017 Dependent/Paired data and Repeated Measures"
           href: lesson_20171108.html
+        - text: "22. 11/13/2017 Repeated Measures ANOVA"
+          href: lesson_20171113.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
