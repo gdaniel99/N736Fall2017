@@ -70,6 +70,8 @@ navbar:
           href: homework06.html
         - text: "Homework 07 - due 11/29/2017"
           href: homework07.html
+        - text: "Project - Milestone 2 & 3 - due 12/4/2017 & 12/15/2017"
+          href: project.html
     - text: "Files"
       icon: fa-files-o
       href: files.html
