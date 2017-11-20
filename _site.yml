@@ -51,6 +51,8 @@ navbar:
           href: lesson_20171113.html
         - text: "23. 11/15/2017 RM-ANOVA and Multilevel (Mixed) Linear Models (MLM)"
           href: lesson_20171115.html
+        - text: "24. 11/20/2017 Reliability and Factor Analysis"
+          href: lesson_20171120.html
     - text: "Assignments"
       icon: fa-file-text
       menu:

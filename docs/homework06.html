@@ -55,8 +55,8 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="styles.css" type="text/css" />
-<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" />
 
 </head>
 
@@ -340,6 +340,9 @@ div.tocify {
     <li>
       <a href="lesson_20171115.html">23. 11/15/2017 RM-ANOVA and Multilevel (Mixed) Linear Models (MLM)</a>
     </li>
+    <li>
+      <a href="lesson_20171120.html">24. 11/20/2017 Reliability and Factor Analysis</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -454,9 +457,9 @@ div.tocify {
 </div>
 
 
-<div id="homework-06---due-11222017" class="section level2">
+<section id="homework-06---due-11222017" class="level2">
 <h2>Homework 06 - due 11/22/2017</h2>
-<div id="logistic-regression" class="section level3">
+<section id="logistic-regression" class="level3">
 <h3>Logistic Regression</h3>
 <p>For Homework 06, you will be using the HELP dataset, learn more at:</p>
 <ul>
@@ -473,76 +476,76 @@ div.tocify {
 </ul></li>
 </ul>
 <p>Complete the following:</p>
-<ol style="list-style-type: decimal">
+<ol type="1">
 <li>Consider the continuous variable <code>cesd</code> as a predictor for <code>g1b</code>
-<ol style="list-style-type: lower-alpha">
+<ol type="a">
 <li>run a logistic regression of the probability of suicidal thoughts (<code>g1b</code>) given their depressive symptoms scores (<code>cesd</code>)</li>
 <li>make a plot of the the predicted probability of suicidal thoughts (<code>g1b</code>) by the depressive symptoms scores (<code>cesd</code>)</li>
 <li>what value of the <code>cesd</code> leads to a probability of suicidal thoughts =&gt; 0.5? <em>(hint: use the plot you just made)</em></li>
 </ol></li>
 <li>Using variable selection methods, develop a logistic regression model for the probability of suicidal thoughts (<code>g1b</code>) considering all of these variables for possible inclusion: <code>age</code>, <code>female</code>, <code>pss_fr</code>, <code>homeless</code>, <code>pcs</code>, <code>mcs</code>, <code>cesd</code>, <code>indtot</code>
-<ol style="list-style-type: lower-alpha">
+<ol type="a">
 <li>present the final model results</li>
 <li>write a few sentences describing your results including:
-<ol style="list-style-type: lower-roman">
+<ol type="i">
 <li>model fit</li>
 <li>model classification table results - remember to report the threshold used for the classification table - you can change it from 0.5 if you think a different threshold might work better</li>
 <li>odds ratios for each significant predictor in the model</li>
 </ol></li>
 </ol></li>
 </ol>
-</div>
-</div>
-<div id="variables-in-help-dataset-to-be-used-for-homework-06" class="section level2">
+</section>
+</section>
+<section id="variables-in-help-dataset-to-be-used-for-homework-06" class="level2">
 <h2>Variables in HELP dataset to be used for Homework 06:</h2>
 <table>
 <caption>Use these variables from HELP dataset for Homework 06</caption>
 <thead>
 <tr class="header">
 <th></th>
-<th align="left">Variable Label</th>
+<th style="text-align: left;">Variable Label</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>g1b</td>
-<td align="left">Experienced serious thoughts of suicide (last 30 days) - Baseline</td>
+<td style="text-align: left;">Experienced serious thoughts of suicide (last 30 days) - Baseline</td>
 </tr>
 <tr class="even">
 <td>age</td>
-<td align="left">Age at baseline (in years)</td>
+<td style="text-align: left;">Age at baseline (in years)</td>
 </tr>
 <tr class="odd">
 <td>female</td>
-<td align="left">Gender of respondent</td>
+<td style="text-align: left;">Gender of respondent</td>
 </tr>
 <tr class="even">
 <td>pss_fr</td>
-<td align="left">Perceived Social Support - friends</td>
+<td style="text-align: left;">Perceived Social Support - friends</td>
 </tr>
 <tr class="odd">
 <td>homeless</td>
-<td align="left">One or more nights on the street or shelter in past 6 months</td>
+<td style="text-align: left;">One or more nights on the street or shelter in past 6 months</td>
 </tr>
 <tr class="even">
 <td>pcs</td>
-<td align="left">SF36 Physical Composite Score - Baseline</td>
+<td style="text-align: left;">SF36 Physical Composite Score - Baseline</td>
 </tr>
 <tr class="odd">
 <td>mcs</td>
-<td align="left">SF36 Mental Composite Score - Baseline</td>
+<td style="text-align: left;">SF36 Mental Composite Score - Baseline</td>
 </tr>
 <tr class="even">
 <td>cesd</td>
-<td align="left">CESD total score - Baseline</td>
+<td style="text-align: left;">CESD total score - Baseline</td>
 </tr>
 <tr class="odd">
 <td>indtot</td>
-<td align="left">Inventory of Drug Use Consequences (InDue) total score - Baseline</td>
+<td style="text-align: left;">Inventory of Drug Use Consequences (InDue) total score - Baseline</td>
 </tr>
 </tbody>
 </table>
-</div>
+</section>
 
 <hr>
 

@@ -55,8 +55,8 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="styles.css" type="text/css" />
-<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" />
 
 </head>
 
@@ -340,6 +340,9 @@ div.tocify {
     <li>
       <a href="lesson_20171115.html">23. 11/15/2017 RM-ANOVA and Multilevel (Mixed) Linear Models (MLM)</a>
     </li>
+    <li>
+      <a href="lesson_20171120.html">24. 11/20/2017 Reliability and Factor Analysis</a>
+    </li>
   </ul>
 </li>
 <li class="dropdown">
@@ -454,7 +457,7 @@ div.tocify {
 </div>
 
 
-<div id="homework-03---due-10042017" class="section level2">
+<section id="homework-03---due-10042017" class="level2">
 <h2>Homework 03 - due 10/04/2017</h2>
 <p>Using the HELP dataset:</p>
 <ul>
@@ -465,83 +468,83 @@ div.tocify {
 <li>write a statistical methods section on the methods you used to create Table 1 and make the comparisons by gender</li>
 <li>write 1-2 paragraphs describing the sample overall at baseline and by group (use the data in table 1 to help you)</li>
 </ul>
-</div>
-<div id="table-1" class="section level2">
+</section>
+<section id="table-1" class="level2">
 <h2>Table 1</h2>
 <hr />
 <table>
 <thead>
 <tr class="header">
-<th align="center">variable</th>
-<th align="center">N</th>
-<th align="center">Overall mean (SD)</th>
-<th align="center">N</th>
-<th align="center">Male mean (SD)</th>
-<th align="center">N</th>
-<th align="center">Female mean (SD)</th>
+<th style="text-align: center;">variable</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Overall mean (SD)</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Male mean (SD)</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Female mean (SD)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center">age</td>
-<td align="center">x</td>
-<td align="center">x.x(x.x)</td>
-<td align="center">x</td>
-<td align="center">x.x(x.x)</td>
-<td align="center">x</td>
-<td align="center">x.x(x.x)</td>
+<td style="text-align: center;">age</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x.x(x.x)</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x.x(x.x)</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x.x(x.x)</td>
 </tr>
 </tbody>
 </table>
 <table>
 <thead>
 <tr class="header">
-<th align="center">variable</th>
-<th align="center">N</th>
-<th align="center">Overall med [IQR]</th>
-<th align="center">N</th>
-<th align="center">Male med [IQR]</th>
-<th align="center">N</th>
-<th align="center">Female med [IQR]</th>
+<th style="text-align: center;">variable</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Overall med [IQR]</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Male med [IQR]</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Female med [IQR]</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center">mcs</td>
-<td align="center">x</td>
-<td align="center">x.x[x.x,x.x]</td>
-<td align="center">x</td>
-<td align="center">x.x[x.x,x.x]</td>
-<td align="center">x</td>
-<td align="center">x.x[x.x,x.x]</td>
+<td style="text-align: center;">mcs</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x.x[x.x,x.x]</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x.x[x.x,x.x]</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x.x[x.x,x.x]</td>
 </tr>
 </tbody>
 </table>
 <table>
 <thead>
 <tr class="header">
-<th align="center">variable</th>
-<th align="center">N</th>
-<th align="center">Overall n [(%)</th>
-<th align="center">N</th>
-<th align="center">Male n (%)</th>
-<th align="center">N</th>
-<th align="center">Female n (%)</th>
+<th style="text-align: center;">variable</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Overall n [(%)</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Male n (%)</th>
+<th style="text-align: center;">N</th>
+<th style="text-align: center;">Female n (%)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td align="center">female</td>
-<td align="center">x</td>
-<td align="center">x (x%)</td>
-<td align="center">x</td>
-<td align="center">x (x%)</td>
-<td align="center">x</td>
-<td align="center">x (x%)</td>
+<td style="text-align: center;">female</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x (x%)</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x (x%)</td>
+<td style="text-align: center;">x</td>
+<td style="text-align: center;">x (x%)</td>
 </tr>
 </tbody>
 </table>
-</div>
+</section>
 
 <hr>
 
