@@ -53,6 +53,10 @@ navbar:
           href: lesson_20171115.html
         - text: "24. 11/20/2017 Reliability and Factor Analysis"
           href: lesson_20171120.html
+        - text: "25. 11/27/2017 Discriminant Analysis/MANOVA"
+          href: lesson_20171127.html
+        - text: "26. 11/29/2017 Mediators and SEM (structural equation modeling)"
+          href: lesson_20171129.html
     - text: "Assignments"
       icon: fa-file-text
       menu:
