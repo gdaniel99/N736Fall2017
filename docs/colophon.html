@@ -28,40 +28,60 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
-div.sourceCode { overflow-x: auto; }
-table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
-  margin: 0; padding: 0; vertical-align: baseline; border: none; }
-table.sourceCode { width: 100%; line-height: 100%; }
-td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; background-color: #dddddd; }
-td.sourceCode { padding-left: 5px; }
-code > span.kw { font-weight: bold; } /* Keyword */
-code > span.dt { color: #800000; } /* DataType */
-code > span.dv { color: #0000ff; } /* DecVal */
-code > span.bn { color: #0000ff; } /* BaseN */
-code > span.fl { color: #800080; } /* Float */
-code > span.ch { color: #ff00ff; } /* Char */
-code > span.st { color: #dd0000; } /* String */
-code > span.co { color: #808080; font-style: italic; } /* Comment */
-code > span.al { color: #00ff00; font-weight: bold; } /* Alert */
-code > span.fu { color: #000080; } /* Function */
-code > span.er { color: #ff0000; font-weight: bold; } /* Error */
-code > span.wa { color: #ff0000; font-weight: bold; } /* Warning */
-code > span.cn { color: #000000; } /* Constant */
-code > span.sc { color: #ff00ff; } /* SpecialChar */
-code > span.vs { color: #dd0000; } /* VerbatimString */
-code > span.ss { color: #dd0000; } /* SpecialString */
-code > span.im { } /* Import */
-code > span.va { } /* Variable */
-code > span.cf { } /* ControlFlow */
-code > span.op { } /* Operator */
-code > span.bu { } /* BuiltIn */
-code > span.ex { } /* Extension */
-code > span.pp { font-weight: bold; } /* Preprocessor */
-code > span.at { } /* Attribute */
-code > span.do { color: #808080; font-style: italic; } /* Documentation */
-code > span.an { color: #808080; font-weight: bold; font-style: italic; } /* Annotation */
-code > span.cv { color: #808080; font-weight: bold; font-style: italic; } /* CommentVar */
-code > span.in { color: #808080; font-weight: bold; font-style: italic; } /* Information */
+div.sourceLine, a.sourceLine { display: inline-block; min-height: 1.25em; }
+a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; }
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+div.sourceLine, a.sourceLine { text-indent: -1em; padding-left: 1em; }
+}
+pre.numberSource div.sourceLine, .numberSource a.sourceLine
+  { position: relative; }
+pre.numberSource div.sourceLine::before, .numberSource a.sourceLine::before
+  { content: attr(data-line-number);
+    position: absolute; left: -5em; text-align: right; vertical-align: baseline;
+    border: none; pointer-events: all;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em; }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #a0a0a0; background-color: #ffffff; color: #a0a0a0;  padding-left: 4px; }
+pre, code { color: #1f1c1b; background-color: #ffffff; }
+@media screen {
+a.sourceLine::before { text-decoration: underline; color: initial; }
+}
+code span.kw { color: #1f1c1b; font-weight: bold; } /* Keyword */
+code span.dt { color: #0057ae; } /* DataType */
+code span.dv { color: #b08000; } /* DecVal */
+code span.bn { color: #b08000; } /* BaseN */
+code span.fl { color: #b08000; } /* Float */
+code span.cn { color: #aa5500; } /* Constant */
+code span.ch { color: #924c9d; } /* Char */
+code span.sc { color: #3daee9; } /* SpecialChar */
+code span.st { color: #bf0303; } /* String */
+code span.vs { color: #bf0303; } /* VerbatimString */
+code span.ss { color: #ff5500; } /* SpecialString */
+code span.im { color: #ff5500; } /* Import */
+code span.co { color: #898887; } /* Comment */
+code span.do { color: #607880; } /* Documentation */
+code span.an { color: #ca60ca; } /* Annotation */
+code span.cv { color: #0095ff; } /* CommentVar */
+code span.ot { color: #006e28; } /* Other */
+code span.fu { color: #644a9b; } /* Function */
+code span.va { color: #0057ae; } /* Variable */
+code span.cf { color: #1f1c1b; font-weight: bold; } /* ControlFlow */
+code span.op { color: #1f1c1b; } /* Operator */
+code span.bu { color: #644a9b; font-weight: bold; } /* BuiltIn */
+code span.ex { color: #0095ff; font-weight: bold; } /* Extension */
+code span.pp { color: #006e28; } /* Preprocessor */
+code span.at { color: #0057ae; } /* Attribute */
+code span.re { color: #0057ae; background-color: #e0e9f8; } /* RegionMarker */
+code span.in { color: #b08000; } /* Information */
+code span.wa { color: #bf0303; } /* Warning */
+code span.al { color: #bf0303; background-color: #f7e6e6; font-weight: bold; } /* Alert */
+code span.er { color: #bf0303; text-decoration: underline; } /* Error */
+code span. { color: #1f1c1b; } /* Normal */
 </style>
 <style type="text/css">
   pre:not([class]) {
@@ -97,8 +117,8 @@ h6 {
 }
 </style>
 
-<link rel="stylesheet" href="styles.css" type="text/css" />
-<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" type="text/css" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="font-awesome-4.7.0\css\font-awesome.css" />
 
 </head>
 
@@ -331,6 +351,104 @@ div.tocify {
     <li>
       <a href="lesson_20170906.html">4. 09/06/2017 Data Cleaning and Assessment - Part II</a>
     </li>
+    <li>
+      <a href="lesson_20170911.html">5. 09/11/2017 Data Wrangling</a>
+    </li>
+    <li>
+      <a href="lesson_20170913.html">6. 09/13/2017 Data Wrangling - Part 2</a>
+    </li>
+    <li>
+      <a href="lesson_20170918.html">7. 09/18/2017 Univariate Descriptive Stats</a>
+    </li>
+    <li>
+      <a href="lesson_20170920.html">8. 09/20/2017 Bivariate Statistics</a>
+    </li>
+    <li>
+      <a href="lesson_20170925.html">9. 09/25/2017 Introduction to Bootstrapping</a>
+    </li>
+    <li>
+      <a href="lesson_20170927.html">10. 09/27/2017 Missing Data</a>
+    </li>
+    <li>
+      <a href="lesson_20171002.html">11. 10/02/2017 Building Models</a>
+    </li>
+    <li>
+      <a href="lesson_20171004.html">12. 10/04/2017 Simple Regression &amp; ANOVA</a>
+    </li>
+    <li>
+      <a href="lesson_20171011.html">13. 10/11/2017 Multivariate Regression &amp; Variable Selection</a>
+    </li>
+    <li>
+      <a href="lesson_2017101618.html">14,15. 10/16&amp;18/2017 Interactions, Moderators, Covariates, Factors</a>
+    </li>
+    <li>
+      <a href="lesson_20171023.html">16. 10/23/2017 Power, Sample Size, Effect Size</a>
+    </li>
+    <li>
+      <a href="lesson_20171025.html">17. 10/25/2017 Analysis of Covariance (ANCOVA)</a>
+    </li>
+    <li>
+      <a href="lesson_20171030.html">18,19. 10/30 &amp; 11/1/2017 Logistic Regression and Generalized Linear Regression</a>
+    </li>
+    <li>
+      <a href="lesson_20171106.html">20. 11/06/2017 Poisson and Negative Binomial Regression</a>
+    </li>
+    <li>
+      <a href="lesson_20171108.html">21. 11/08/2017 Dependent/Paired data and Repeated Measures</a>
+    </li>
+    <li>
+      <a href="lesson_20171113.html">22. 11/13/2017 Repeated Measures ANOVA</a>
+    </li>
+    <li>
+      <a href="lesson_20171115.html">23. 11/15/2017 RM-ANOVA and Multilevel (Mixed) Linear Models (MLM)</a>
+    </li>
+    <li>
+      <a href="lesson_20171120.html">24. 11/20/2017 Reliability and Factor Analysis</a>
+    </li>
+    <li>
+      <a href="lesson_20171127.html">25. 11/27/2017 Discriminant Analysis/MANOVA</a>
+    </li>
+    <li>
+      <a href="lesson_20171129.html">26. 11/29/2017 Mediators and SEM (structural equation modeling)</a>
+    </li>
+  </ul>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    <span class="fa fa-file-text"></span>
+     
+    Assignments
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="homework01.html">Homework 01 - due 09/06/2017</a>
+    </li>
+    <li>
+      <a href="homework02.html">Homework 02 - due 09/20/2017</a>
+    </li>
+    <li>
+      <a href="homework03.html">Homework 03 - due 10/04/2017</a>
+    </li>
+    <li>
+      <a href="project01.html">Project - Milestone 01 - due 10/04/2017</a>
+    </li>
+    <li>
+      <a href="homework04.html">Homework 04 - due 10/18/2017</a>
+    </li>
+    <li>
+      <a href="homework05.html">Homework 05 - due 11/01/2017</a>
+    </li>
+    <li>
+      <a href="homework06.html">Homework 06 - due 11/22/2017</a>
+    </li>
+    <li>
+      <a href="homework07.html">Homework 07 - due 11/29/2017</a>
+    </li>
+    <li>
+      <a href="project.html">Project - Milestone 2 &amp; 3 - due 12/4/2017 &amp; 12/15/2017</a>
+    </li>
   </ul>
 </li>
 <li>
@@ -407,18 +525,18 @@ div.tocify {
 </div>
 
 
-<div id="colophon-of-website" class="section level2">
+<section id="colophon-of-website" class="level2">
 <h2>Colophon of Website</h2>
 <p>This website was built using <a href="https://cran.r-project.org/"><code>R</code></a> and <a href="https://www.rstudio.com/"><code>Rstudio</code></a> using the <a href="http://rmarkdown.rstudio.com/rmarkdown_websites.html"><code>rmarkdown</code></a> website support.</p>
-</div>
-<div id="session-info" class="section level2">
+</section>
+<section id="session-info" class="level2">
 <h2>Session Info</h2>
-<p>Website was last updated on Wed Sep 06 11:30:32 2017 and built under the following <code>sessionInfo()</code>:</p>
+<p>Website was last updated on Wed Nov 29 09:40:04 2017 and built under the following <code>sessionInfo()</code>:</p>
 <p>Session information:</p>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw">sessionInfo</span>()</code></pre></div>
-<pre><code>## R version 3.4.1 (2017-06-30)
+<pre class="sourceCode r" id="cb1"><code class="sourceCode r"><div class="sourceLine" id="cb1-1" data-line-number="1"><span class="kw">sessionInfo</span>()</div></code></pre>
+<pre><code>## R version 3.4.2 (2017-09-28)
 ## Platform: x86_64-w64-mingw32/x64 (64-bit)
-## Running under: Windows 10 x64 (build 14393)
+## Running under: Windows 10 x64 (build 16299)
 ## 
 ## Matrix products: default
 ## 
@@ -433,11 +551,11 @@ div.tocify {
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## loaded via a namespace (and not attached):
-##  [1] compiler_3.4.1  backports_1.1.0 magrittr_1.5    rprojroot_1.2  
-##  [5] tools_3.4.1     htmltools_0.3.6 yaml_2.1.14     Rcpp_0.12.12   
-##  [9] stringi_1.1.5   rmarkdown_1.6   knitr_1.17      stringr_1.2.0  
+##  [1] compiler_3.4.2  backports_1.1.1 magrittr_1.5    rprojroot_1.2  
+##  [5] tools_3.4.2     htmltools_0.3.6 yaml_2.1.14     Rcpp_0.12.13   
+##  [9] stringi_1.1.5   rmarkdown_1.7   knitr_1.17      stringr_1.2.0  
 ## [13] digest_0.6.12   evaluate_0.10.1</code></pre>
-</div>
+</section>
 
 <hr>
 
